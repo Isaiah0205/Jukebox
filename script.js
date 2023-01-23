@@ -22,29 +22,161 @@ let updateTimer;
 
 const music_list = [
     {
-        img : 'images/stay.png',
-        name : 'Stay',
-        artist : 'The Kid LAROI, Justin Bieber',
-        music : 'music/stay.mp3'
+        img : 'images/Metro-Boomin.webp',
+        name : 'Around Me',
+        artist : 'Don Toliver',
+        music : 'music/Around Me.mp3'
     },
     {
-        img : 'images/fallingdown.jpg',
-        name : 'Falling Down',
-        artist : 'Wid Cards',
-        music : 'music/fallingdown.mp3'
+        img : 'images/Mark_Morrison_Return_Of_the_Mack_Album_Cover.jpeg',
+        name : 'Return of The Mack',
+        artist : 'Mack Morrison',
+        music : 'music/Returnofthemack.mp3'
     },
     {
-        img : 'images/faded.png',
-        name : 'Faded',
-        artist : 'Alan Walker',
-        music : 'music/Faded.mp3'
+        img : 'images/CasinoJizzle.jpeg',
+        name : '40 Bars (Freestyle)',
+        artist : 'Casino Jizzle',
+        music : 'music/40 Bars (Freestyle).mp3'
     },
     {
-        img : 'images/ratherbe.jpg',
-        name : 'Rather Be',
-        artist : 'Clean Bandit',
-        music : 'music/Rather Be.mp3'
-    }
+        img : 'images/BigScarr.jpeg',
+        name : 'I Would Keep Goin',
+        artist : 'Big Scarr',
+        music : 'music/Big Scarr - I Would Keep Goin (AUDIO).mp3'
+    },
+    {
+        img : 'images/ESTGEECover.jpeg',
+        name : 'Lick Back Remix',
+        artist : 'EST Gee',
+        music : 'music/EST Gee - Lick Back Remix (feat. Future, Young Thug) [Official Audio].mp3'
+    },
+    {
+        img : 'images/LilDouble0.jpeg',
+        name : 'HMP',
+        artist : 'Lil Double O',
+        music : 'music/Lil Double 0 - HMP (Official Audio).mp3'
+    },
+    {
+        img : 'images/JID-The-Forever-Story.webp',
+        name : 'Kody Blu 31',
+        artist : 'J.I.D',
+        music : 'music/JID - Kody Blu 31 (Official Audio).mp3'
+    },
+    {
+        img : 'images/RemembertheTime.png',
+        name : 'Remember the Time',
+        artist : 'Michael Jackson',
+        music : 'music/Michael Jackson - Remember The Time (Official Video).mp3'
+    },
+    {
+        img : 'images/Metro-Boomin.webp',
+        name : 'Too Many Nights',
+        artist : 'Don Toliver',
+        music : 'music/Too Many Nights.mp3'
+    },
+    {
+        img : 'images/Metro-Boomin.webp',
+        name : 'Metro Spider',
+        artist : 'Young Thug',
+        music : 'music/Metro Spider.mp3'
+    },
+    {
+        img : 'images/Allfallsdown.jpeg',
+        name : 'All Falls Down',
+        artist : 'Kanye West',
+        music : 'music/All Falls Down.mp3'
+    },
+    {
+        img : 'images/SnowonDaBluff.jpeg',
+        name : 'Snow on Tha Bluff',
+        artist : 'J.Cole',
+        music : 'music/J. Cole - Snow On Tha Bluff (Official Audio).mp3'
+    },
+    {
+        img : 'images/JID-The-Forever-Story.webp',
+        name : '2007',
+        artist : 'J.I.D',
+        music : 'music/2007.mp3'
+    },
+    {
+        img : 'images/JID-The-Forever-Story.webp',
+        name : 'Sistanem',
+        artist : 'J.I.D',
+        music : 'music/JID - Sistanem (Official Audio).mp3'
+    },
+    {
+        img : 'images/amilli.jpg',
+        name : 'A Milli',
+        artist : 'Lil Wayne',
+        music : 'music/A Milli.mp3'
+    },
+    {
+        img : 'images/j.cole.jpg',
+        name : 'No Role Modelz',
+        artist : 'J.Cole',
+        music : 'music/No Role Modelz.mp3'
+    },
+    {
+        img : 'images/spanishsong.jpg',
+        name : 'Fue Mejor',
+        artist : 'Kali Uchis',
+        music : 'music/Kali Uchis - Fue Mejor ft.SZA (Lyrics).mp3'
+    },
+    {
+        img : 'images/lilbaby.png',
+        name : 'Pop Out',
+        artist : 'Lil Baby',
+        music : 'music/Lil Baby, Nardo Wick - Pop Out (Lyric Video).mp3'
+    },
+    {
+        img : 'images/carter5.jpg',
+        name : 'Mona Lisa',
+        artist : 'Lil Wayne',
+        music : 'music/Lil Wayne - Mona Lisa ft. Kendrick Lamar.mp3'
+    },
+    {
+        img : 'images/mariahthescientist.jpg',
+        name : 'Brain',
+        artist : 'Mariah the Scientist',
+        music : 'music/Mariah the Scientist - Brain (Audio).mp3'
+    },
+    {
+        img : 'images/gospel.jpg',
+        name : 'The Best in Me',
+        artist : 'Marvin Sapp',
+        music : 'music/Marvin Sapp- The Best In Me (LyricsSong).mp3'
+    },
+    {
+        img : 'images/moneytrees.jpg',
+        name : 'Money Trees',
+        artist : 'Kendrick Lamar',
+        music : 'music/Money Trees.mp3'
+    },
+    {
+        img : 'images/popsmoke.jpg',
+        name : 'Got it on Me',
+        artist : 'Pop Smoke',
+        music : 'music/POP SMOKE - GOT IT ON ME (OFFICIAL VIDEO).mp3'
+    },
+    {
+        img : 'images/youngboy.jpg',
+        name : 'Umm Hmm',
+        artist : 'NBA Youngboy',
+        music : 'music/NBA Youngboy - Umm Hmm [Official Audio].mp3'
+    },
+    {
+        img : 'images/TooHotCover.jpeg',
+        name : 'Too Hot',
+        artist : 'NLE Choppa',
+        music : 'music/NLE Choppa - Too Hot (feat. Moneybagg Yo) [Official Music Video].mp3'
+    },
+    {
+        img : 'images/sZa.jpg',
+        name : 'Kill Bill',
+        artist : 'SZA',
+        music : 'music/SZA - Kill Bill (Audio).mp3'
+    },
 ];
 
 loadTrack(track_index);
@@ -69,7 +201,7 @@ function loadTrack(track_index){
 
 function random_bg_color(){
     let hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e'];
-    let a;
+
 
     function populate(a){
         for(let i=0; i<6; i++){
@@ -172,3 +304,15 @@ function setUpdate(){
         total_duration.textContent = durationMinutes + ":" + durationSeconds;
     }
 }
+
+document.addEventListener("keydown", function(event) {
+    if (event.code === "Space" || event.code === "F8") {
+        if(curr_track.paused){
+            curr_track.play();
+            playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+        }else{
+            curr_track.pause();
+            playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';
+        }
+    }
+});
